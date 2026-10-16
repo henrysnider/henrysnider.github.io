@@ -22,7 +22,16 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  build:
+      steps:
+          - uses: actions/checkout@v3
+          - run: npm install
+          - run: npm run build --if-present
+          - uses: actions/upload-artifact@v3
+            with:
+              name: app-build
+              path: dist
+
   deploy:
     environment:
       name: github-pages
@@ -33,10 +42,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: app-build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
           path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
