@@ -1,6 +1,6 @@
 function HeaderMenu() {
     return (
-      <header>Test</header>
+      <header>Menu</header>
     );
 }
 
