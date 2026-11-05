@@ -6,7 +6,6 @@ import type { ComponentType } from 'react'
 import HeaderMenu from './HeaderMenu.tsx'
 import E404 from './pages/404.tsx'
 import './index.css'
-import './App.css'
 
 const pages = import.meta.glob<{ default: ComponentType }>(
   './pages/*.tsx',
