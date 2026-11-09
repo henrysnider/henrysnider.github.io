@@ -26,3 +26,18 @@ main {
   height: calc(100% - var(--header-height));
   width: 100%;
 }
+
+.centerText {
+  padding: 10%;
+  font-size: var(--txt-large);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerText-line {
+  padding: 2.5%;
+  width: 100%;
+}
