@@ -1,6 +1,13 @@
+import '../styles/404.css';
+
 function E404() {
     return (
-      <header>404 - Page Not Found</header>
+      <main>
+        <div className="lostMessage">
+          <b className="lostMessage-line">Page Not Found :(</b>
+          <a href="/" className="lostMessage-line">Return Home?</a>
+        </div>
+      </main>
     );
 }
 
