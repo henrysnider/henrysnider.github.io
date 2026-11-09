@@ -1,0 +1,15 @@
+:root {
+  --primary: #267b19;
+  --secondary: #8f049b;
+  --accent: #0c0c0b; 
+  --text: #100f10;
+
+  --border-width: 2px;
+
+  --txt-large: 32px;
+  --txt-medium: 22px;
+  --txt-normal: 18px/145%;
+
+  color: var(--text);
+  font: var(--txt-normal) "Courier New";
+}
