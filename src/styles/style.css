@@ -1,6 +1,6 @@
 :root {
   --primary: #267b19;
-  --secondary: #8f049b;
+  --secondary: #442666;
   --accent: #0c0c0b; 
   --text: #100f10;
 
@@ -10,6 +10,19 @@
   --txt-medium: 22px;
   --txt-normal: 18px/145%;
 
+  --header-height: 10%;
+
   color: var(--text);
   font: var(--txt-normal) "Courier New";
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  top: var(--header-height);
+  left: 0%;
+  position: absolute;
+  height: calc(100% - var(--header-height));
+  width: 100%;
 }

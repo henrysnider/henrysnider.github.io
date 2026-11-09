@@ -1,6 +1,8 @@
 function Flashcards() {
     return (
-      <header>Flashcards</header>
+      <main>
+        <b>Flashcards</b>
+      </main>
     );
 }
 
