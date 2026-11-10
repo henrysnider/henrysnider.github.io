@@ -5,9 +5,8 @@ function HeaderMenu() {
       <nav className="header-menu">
         <b className="header-item header-title">Henry Snider</b>
         <div className="header-nav">
-          <b className="header-item header-navitem">Home</b>
-          <b className="header-item header-navitem">About</b>
-          <b className="header-item header-navitem">Contact</b>
+          <a className="header-item header-navitem" href="/">Home</a>
+          <a className="header-item header-navitem" href="/flashcards">Flashcards</a>
         </div>
       </nav>
     );
