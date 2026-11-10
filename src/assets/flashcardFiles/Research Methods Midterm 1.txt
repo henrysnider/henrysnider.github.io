@@ -1,0 +1,47 @@
+Two types of sociology ~ Macro- & micro-
+Unit of analysis ~ The entity being studied (individuals, groups, formal organizations, ...)
+Risks of switching units of analysis ~ Ecological fallacy (environment NOT -> individual experiences)
+Ecological fallacy ~ Risk of switching units of analysis; typically saying environment->individual experiences
+Considerations for good questions ~ Social importance, scientific relevance, feaseability
+Level of abstraction ~ Macro (state/pop.-level), Meso (groups/organizations), Micro (individuals/interactions)
+Macro/Meso/Micro ~ Level of abstraction of theory
+Purpose of theory ~ Describe ("thick" description, understand a known phenomenon), explain (test theory's predictions; rarer), explore (theory->specific questions)
+Describe/Explain/Explore ~ purpose of theory
+Use of theory ~ Inductive (research/data->theory), Deductive (theory->research)
+Inductive/Deductive ~ Use of theory
+Attributes of most theories ~ Generalizable, falsifiable, probabalistic (not absolute)
+Types of relationships between concepts? ~ +/-, mediation (link), moderation (relationship impacted), spuriousness (mutual cause)
+Epistemology ~ Creation of knowledge
+Ontology ~ Nature of reality (objective truth exist?)
+Purpose of paradigms ~ A set of assumptions about social reality's definition; guides what to look at and how to explain things
+Example paradigms ~ Structural functionalism (macro, stabilizes?), conflict (macro, advantaged groups?), rational choice (all, max net benefit?), symbolic interactionism (micro, how in interactions?)
+Three types of hypothesis? ~ difference, association, cause
+Ways variables and concepts exchange ~ conceptualization and operationalization
+Variables->Concepts ~ Conceptualization
+Concepts->Variables ~ Operationalization
+What defines empirical observation? ~ It is systematic, conscious, deliberate, and recorded, and it gets connected to logic and/or prior knowledge
+What defines social scientific inquiry ~ Empirical observation and peer review
+Useful attitudes for sociologists ~ Radical curiosity, rigorous sociological imagination, prepared to be totally wrong
+Possible effects that caused Millenials' underperformance ~ Age, period, or cohort
+Types of reflexivity ~ 1) researcher self-exposes, 2) bring in subjects, 3) researcher self-analyses
+Wheel of science ~ Theory -> Hypotheses -> Empirical data -> Observed patterns
+Possible outcomes from elaboration model ~ Replication (Same 0-order correlation), Explanation (0-order disappears/insig. & test v. is antecedent to IV), Mediation (0-order disappears/insig. & test v. happens between IV and DV), Moderation (0-order disappears/insig. for *some* conditions of test v.)
+Requirements for causality ~ Correlation, time-order, nonspurious relationship
+Anonymity vs. Confidentiality ~ Anonymous can't be identified even by research team; confidential is only in publication
+Three ethical principles ~ Respect, Beneficence, Justice
+Respect; applications & things at stake ~ Voluntary participation, truth to subjects, privacy; generalizability, validity, truthfulness of findings
+Beneficence; applications & things at stake ~ Minimize harm; pursuit of knowledge
+Justice; applications & things at stake ~ Fair distribution of harms & benefits of research; pursuit of knowledge (esp. social problems)
+Ethnographic roles ~ Complete participant, participant-observer, covert observer, observer
+Requirements of ethnographic roles ~ CP - Resemble subjects; PO - Acceptance & Rapport; CO - Public setting or reason to be there; O - Gatekeeper & ability to blend in
+Types of ethnography ~ Realist (descriptive), confessional (reflexive), and advocacy
+Types of interview ~ Informal, Oral (individual's story; often biased), Life-History, Cognitive (thought process)
+Pros/Cons of ethnography ~ Very internally valid but not very externally valid (not generalizable); gain *empathetic* understanding of subjects
+Pros/Cons of interviews ~ Very internally but not externally valid; deep understanding of attitudes but not necessarily behaviors, and respondents might not know how to respond (e.g. moral decisionmaking)
+Interview sampling techniques ~ Purposive sampling & snowball sampling (most importantly, *not* random)
+Respondent vs Informant ~ Both interviewees; respondents are ordinary people, informants have some special knowledge due to their social location &/or professional position
+Four major elements of field notes ~ Description, inferences, own reactions, initial analysis
+Tips for good interviews ~ Probe, do analysis yourself, open-ended questions, interrogate everything, order questions, don't judge participants, play dumb
+Grounded theory approach ~ Inductive, develops theory based on data (researcher's experiences & observations)
+Extended case study approach ~ Deductive, theory guides to field site/case, then data used to modify existing theory
+Steps of hypothesis construction ~ Operationalize, specify context, specify expectations (relations, magnitudes & compilations)

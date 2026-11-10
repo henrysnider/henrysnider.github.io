@@ -1,0 +1,77 @@
+Five methods ~ Ethnography, Interviews, Surveys, Experiments, Materials-Based
+Requirements of ethnographic roles ~ CP - Resemble subjects; PO - Acceptance & Rapport; CO - Public setting or reason to be there; O - Gatekeeper & ability to blend in
+Types of ethnography ~ Realist (descriptive), confessional (reflexive), and advocacy
+Types of interview ~ Informal, Oral (individual's story; often biased), Life-History, Cognitive (thought process)
+Pros/Cons of ethnography ~ Very internally valid but not very externally valid (not generalizable); gain *empathetic* understanding of subjects
+Pros/Cons of interviews ~ Very internally but not externally valid; deep understanding of attitudes but not necessarily behaviors, and respondents might not know how to respond (e.g. moral decisionmaking)
+Strengths of surveys ~ Breadth of topics, comparisons (group or time), generalizability (stats)
+Weaknesses of surveys ~ Error (nonresponse, measurement [e.g. leading questions], coverage, sampling), response rates (limits generalizability) 
+Survey modes of administration/types ~ Face-to-Face, Telephone, Mail, Online, Mixed-Mode
+Key features of experiments ~ I.V. manipulation, Random assignment, control other factors
+Pros/Cons of experiments ~ Prove causality, test theory, get mechanistic detail; BUT reproducibility is tough and less external validity (less realness)
+Types of experiments ~ Lab, Field, Naturalistic, Population-based survey
+Pros/Cons of surveys ~  Breadth of topics, comparisons, generalizability; BUT error (nonresponse, measurement, coverage, sampling), response rates
+Types of materials-based research ~ Historical-Comparative, content analysis (quantitative & critical), quantitative
+Types of content analysis in materials-based ~ quantitative & critical
+Reasons for materials-based ~ Macro focus, Old events, people's blind spots, otherwise impossible ($) research
+Sources of materials ~ Governments (typically aggregated), organizations, individuals
+Types of materials used (10) ~ Analysis, reports, records, news media, cultural artifacts, individual accounts, physical items, maps, data sets, big data
+Pros/Cons of materials-based ~ Good for macro focus, old events, people's blind spots, otherwise impossible ($) research; BUT barriers to access, distance/non-realness of materials, consent & privacy concerns
+Dimensions ~ Different angles of a complex concept
+Variable Indicator ~ The different values a variable can have
+Is it okay to use someone else's conceptualization? ~ No, because will always be context-dependent
+Reductionism fallacy ~ Analyzing micro data and making macro conclusions
+Interval (# type) ~ Has no true zero (e.g. time)
+Ratio (# type) ~ Has a true zero (e.g. weight)
+Response categories must be ~ Exhastive & mutually exclusive
+Basic forms of measurement ~ Reports (direct feedback), Observation, Artifact counts/assessments, Manipulation
+Ruler V&R analogy ~ Wood (reliable but not valid for round), Plastic (valid for round but not reliable), Metal (valid and reliable)
+2000 Election (Bush & Gore) ~ Bush said count complete chads only (Reliability), Gore said count all (Validity)
+2004 Election (Bush & Kerry) ~ Bush says border stronger (more security), Kerry says weaker (more crossings). Conceptualization->results
+Conceptualization->results example ~ 2004 Election (Bush & Kerry)
+Murray 'Losing Ground' ~ Didn't control inflation, GDP counfound. Operationalization->results
+Operationalization->results example ~ Murray 'Losing Ground'
+Tests for reliability/robustness ~ split-half (seem if other parts correlate), test-retest (time difference), pilot testing (preliminary sample)
+Types of validity ~ Face, Criterion (concurrent & predictive), Content (concept dimensions -> measures), Construct (convergent & discriminant)
+Types of criterion validity ~ concurrent & predictive
+Types of construct validity ~ convergent & discriminant
+Content vs. construct validity ~ Content is concept dimensions->measures, construct is connection to underlying factor
+Predictive vs. concurrent validity ~ Concurrent is with preexisting measure of concept, predictive is theory-based
+Convergent vs. discriminant validity ~ Items correlate together vs. don't correlate when shouldn't
+External validity factors ~ Representativeness & realness
+Benefits of collapsing concept concepts ~ Avoid individual biases and simplify analysis
+Reasons for mixed-mode surveys ~ new/different data, assess quality/bias, eliminate undercoverage, increase response rates
+Survey paradata ~ data about the process and setting in which the survey was administered
+Response biases for surveys ~ Social desireability, acquiesence
+Survey response types ~ Closed-Ended: Dichotomous (y/n), rating scale (e.g. Likert; 4 categories), ranking items
+Scale vs. Index ~ Scale has intensity structure & averaged, Index all-same & summed
+Characteristics of good questions ~ Clear & simple, precise, exercise caution, avoid leading questions
+Soft vs. Hard data ~ Soft is impressionistic (complaints, comments), Hard is quantitative (f distributions)
+Saturation ~ When new data only confirms known things
+Possible criteria for nonrandom sample ~ Access/quality of data, typicality, extremity, importance, deviance, contrasting outcomes, key differences, past experience & intuition
+Benefit of sequential sampling ~ Access hidden populations
+Probability design definition ~ Known relationship (prob.) between sample elt's and population elt's. *Not* necessarily equal, but known
+Non-Prob. design definition ~ No known relationship between pop. & sample elt's
+Types of non-prob samples ~ Convenience, purposive, sequential, snowball
+Types of prob. samples ~ Simple random, systematic random, cluster, stratified random
+What is sampling ~ Deciding which and how many elements will represent the population
+Criteria for sampling design ~ representativeness & generalizability
+Typology definition ~ Qualitative compound measure, can be used as IV not DV, create w/ table cells
+What makes coding difficult ~ Complex concepts/ambiguity, and size of materials
+Descriptive vs. injunctive norms ~ typical actions vs. approval
+Three ethical principles ~ Respect, Beneficence, Justice
+Respect; applications & things at stake ~ Voluntary participation, truth to subjects, privacy; generalizability, validity, truthfulness of findings
+Beneficence; applications & things at stake ~ Minimize harm; pursuit of knowledge
+Justice; applications & things at stake ~ Fair distribution of harms & benefits of research; pursuit of knowledge (esp. social problems)
+Ethical concerns with materials-based ~ Privacy & consent
+What do Best & Johnson demonstrate ~ How conceptualization & operationalization can impact results
+What did Best & Johnson describe ~ How, despite a broader trend of lower crime rates, certain statistics (e.g. CDC vs. FBI homicide rates, DC vs. State) and reporting can make people think rates are particularly high
+Rubin conceptualization ~ love; affective & dependent need, prediposition to help, exclusiveness & absorption
+Rubin operationalization ~ 13-item index
+Perkins conceptualization ~ (mis/perceptions of) descriptive & injunctive norms around bullying
+Perkins operationalization ~ indexes for descriptive, attitudes/reporting measures for injunctive
+Freeman conceptualization ~ Segregation (distributional and compositional)
+Freeman operationalization ~ Dissimilarity, Entropy, Exposure, Isolation indexes
+Doob & Gross operationalization ~ Aggression->honk # and length, Status->car + clothing
+Monson 2.0 conceptualization ~ Free-rider (taking unfair advantage of others' work), Leadership (galvanizing & grounding)
+Monson 2.0 operationalization ~ Free-rider (2+ peers identified willful significant non-participation), Leadership (types: ensemble, clear leader, leadership failure)

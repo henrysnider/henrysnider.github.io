@@ -1,0 +1,33 @@
+Software lifecycles? ~ 
+Organized approaches to software development ~ Waterfall, Iterative & Incremental (waterfall each subsystem)
+Cost of finding bugs late? ~ Cost compounds over time
+Levels of testing ~ Unit, Integration, System, Acceptance
+Verification vs. validation? ~ Verification meets specification (Unit & Integration tests), Validation meets need/problem (System & Acceptance)
+What makes a good test? ~ Specify starting state & input, expected result, includes edge inputs
+When to test? ~ Balance cost of tests/errors
+Integration testing approaches ~ Bottom-up ("drivers" fake high-level), Top-down ("stubs" fake low-level), Sandwich
+Types of test doubles? ~ Stub (fixed answer), Fake (simplified working version), Mock (fake that self-logs)
+Debugging tools? ~ Debugger, assertions, logging, print statements
+Black vs white box testing ~ Black is specification, white is implementation (all paths)
+Ways to design for testing? ~ Public methods best, special getters, change privacy, check public behavior, assertions
+TDD pros/cons ~ Hits spec better, but mostly unit tests and tests become high maintenance
+Teams pros/cons ~ Labor division, complementary skills/knowledge, error catching; coordination/communication overhead, groupthink, conflict!!
+Team risk mitigation strategies ~ Clear, upfront DoL, consistent checkins
+Communication strategies ~ Synchronous (decisions, disagreements, design) & Asynchronous (Status updates, small questions)
+Conflict causes ~ Uneven work, technical disagreement, unclear roles, missed commitments, communication style differences
+Conflict responses ~ Scales of Assertive & Cooperative; Compete, Accomodate, Avoid, Collaborate, Compromise (middle)
+Types of cooperative programming ~ Pair, swarm
+Purpose of code review ~ Catch bugs, spread knowledge, enforced shared standards
+What to look for in code review ~ Correctness, standards, tests, readability
+How to give code feedback ~ Specific, actionable, kind, distinguish "must fix" and "consider"
+Branching strategies ~ Feature (isolate, merge on completion) and Trunk-based (minimize branch lifetime)
+GitHub Flow ~ Trunk-based, meant for continuous deployment & smaller projects
+Git Flow ~ Formal, versioned releases; two constant branches (main & develop), w/ shorter ones (feature, release, hotfix)
+GitLab Flow ~ Branches main, prod, feature
+What to put in javadocs ~ Method contract, assumptions, what it doesn't handle -- NOT obvious things or line-by-line
+Core defensive programming concepts ~ Assume nothing (depends on boundaries), fail safely, fail fast
+Java's naming conventions ~ ClassName pascal, methodName/variableName camel, CONSTANT screaming snake
+Code smell ~ An *easy to spot* indicator that code is (1) harder to change, (2) easier to break, and/or (3) illegible
+Core code smells ~ Lexical abuser, bloater, dispensable, obfuscator
+Standard refactorings ~ Rename, replace w/ constant, extract/split into new methods/classes/interfaces, delete
+Checked vs unchecked exceptions ~ Checked are forced by compiler, unchecked are runtime

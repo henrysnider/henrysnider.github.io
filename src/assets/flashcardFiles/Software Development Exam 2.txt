@@ -1,0 +1,62 @@
+Well designed vs. correct ~ WD = easy to get right, understand, and change
+Types of cohesion ~ Communicational (refer to same data structure), procedural (steps to larger goal), logical (perform similar operations)
+Cohesion definition ~ Everything in a class is there for a reason connected to the class's single purpose
+Low cohesion warning signs ~ Summary needs 'and', instance variables unrelated, 'god class'
+Low cohesion smell ~ Large class, divergent change
+Separation of concerns def. ~ Distinct functionality should be in distinct classes; makes high cohesion possible
+Benefits of separation of concerns ~ Division of labor, reuse
+Information hiding def. ~ Segregate design decisions (e.g. List type)
+Encapsulation def. ~ Bundle data with manipulating methods
+Encapsulation vs. Information hiding ~ IH is the goal, encapsulation the mechanism
+Advantages of Information Hiding ~ Reduced complexity, protected integrity (specific state-change paths), robustness (bugs don't spread), flexibility
+Information hiding smells ~ Insider trading, message chains, global data, data class
+Coupling def. ~ Interdependencies between modules
+Coupling smells ~ Messsage chains, shotgun surgery, feature envy, middle man
+Paths to loose coupling ~ Limit collaborators (passed data), prefer whole-task methods, inter-method communication only via parameters (not instance variables), watch sequence dependency of methods
+Code to the interface def. ~ Depend on abstraction, not implementation. Reduces coupling
+Law of demeter ~ Only talk to friends, not strangers (instance variables, parameters, 'new' objects; avoid call chains)
+Polymorphism ~ Writing to interface/parent class
+Abstract class vs. Interface ~ Is-A vs. Does; shared state/behaviors or not
+SOLID ~ Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
+Open-Closed vs. Dependency Inversion ~ OCP about development (changes), DIP about runtime dependencies
+Single Responsibility Principle ~ Class should have 1 reason to change
+Open-Closed Principle ~ Classes should be open for extension, not modification (possible to add without needing to modify)
+Liskov Substitution Principle ~ Create subclasses only when "is a", AND inheriting everything from superclass makes sense; Composition vs. Inheritance
+Interface Segregation Principle ~ No subclass/interface implementer should need to deal with interface methods it doesn't use
+Dependency Inversion Principle ~ Rely on abstractions, not implementations
+Aggregation vs. Composition ~ Part can/can't exist independently of the whole; white vs black arrow
+UML inheritance & realization ~ Triangle; white & filled-in
+UML Class components ~ Name, instance variables, methods, collections
+Association def. ~ Collaborations where aggregation/composition don't apply
+Purpose of design patterns ~ Save time, improve design, provide shared vocab
+Patterns & Purposes ~ State (parameterize variation), State (variation based on internal state), Template (variations in steps of a set process)
+Purpose of factories ~ Hide different types & construction requirements from clients; centralize decisions
+Types of factories ~ Simple F, F method, abstract F
+Decorator purpose ~ Add behavior without needing exponential subclasses
+Decorator structure ~ Decorator implements same interface as wrapped thing; adds behavior before/after delegating to wrapped
+Program-Controlled vs. Event-Driven control flow ~ Event-Driven, things happen as responses mostly, not deterministicly
+Frameworks vs. Libraries ~ Frameworks provide structure/control flow, libraries provide usable behavior
+Inversion of control (re: control flow) ~ Waiting for events instead of running first
+Event loop ~ Like in games; always running cyclically. Creates events. AKA event *dispatcher*
+Stateless vs. Stateful handlers ~ If behavior is identical across handler calls
+Handler best practices ~ Return quickly (will freeze app), call another well-named method (esp. more testable), keep game/business logic OUT (only interpret event -> invoke logic -> update view)
+Where keyboard events delivered? ~ Focused pane
+Selection controls selection criteria ~ (in)finite options? multiple selections? range? all simultaneously visible?
+Constraining vs. validating input ~ Prefer constraining (never allowing invalid input)
+Good error messages ~ What is wrong & example
+Modal dialogue box ~ Blocks; use sparingly
+Using disabling vs. hiding ~ Exists but inapplicable right now vs. Never applies in this context
+When to use dialogue boxes ~ When the decision must be made right now; keep routine feedback to inline message
+Hallway testing ~ Ethnography
+How to test UI ~ Hallway testing
+Visual hierarchy ~ Importance == Noticeable, users scan down-right
+How to organize UI ~ group by relatedness, visual hierarchy, consistent padding
+Consistency in UI ~ Same thing looks/acts identically across the application, same vocabulary & style, follow preexisting platform conventions (e.g. esc=cancel) & real-world analogies
+Feedback & visible state ~ Feedback (or clear progress) fast, keep current state always visible, never fail silently
+Handling errors w/ UI ~ Prevent (constrain, disable), Explain (clear w/ examples), confirm destructive actions only, offer undos wherever possible
+Affordance & signifier ~ What a user can do, & visual cue indicating that
+Designing for accessibility ~ Screen readers, high contrast/magnification, keyboard controls, color vision differences
+Keyboard mnemonic ~ Navigate UI via keyboard
+Keyboard accelerator ~ invoke action directly
+Screen reader compatability ~ set 'replacement' text (to be spoken)
+Color & contrast re: accessibility ~ Specific text/background ratios, no cues of only color
