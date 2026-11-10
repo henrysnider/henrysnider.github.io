@@ -3,17 +3,20 @@
   --secondary: #442666;
   --accent: #0c0c0b; 
   --text: #100f10;
+  --error: #a00000;
 
   --border-width: 2px;
 
-  --txt-large: 32px;
-  --txt-medium: 22px;
-  --txt-normal: 18px/145%;
+  --font: "Courier New";
+
+  --txt-large: 2.5rem;
+  --txt-medium: 2rem;
+  --txt-normal: 1rem;
 
   --header-height: 10%;
 
   color: var(--text);
-  font: var(--txt-normal) "Courier New";
+  font: var(--txt-normal) var(--font);
 
   display: flex;
   flex-direction: column;
