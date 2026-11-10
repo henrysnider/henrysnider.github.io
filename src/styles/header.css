@@ -13,10 +13,13 @@
 
 .header-item {
   font-size: var(--txt-medium);
+  font-weight: bold;
   height: 100%;
   align-content: center;
   display: block;
   padding-inline: 1%;
+  color: var(--text);
+  text-decoration: none;
 }
 
 .header-nav {
