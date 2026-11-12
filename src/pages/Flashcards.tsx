@@ -137,6 +137,7 @@ function Flashcards() {
 
       <div className="flashcards-layout">
         <section className="flashcards-file" aria-label="Flashcard file">
+          <b>Flashcards File</b>
           <select
             className="flashcards-select"
             id="flashcards-source"
@@ -197,7 +198,9 @@ function Flashcards() {
               </select>
             </label>
           )}
-          <p id="filePrompt" className="flashcards-file-prompt">Files should have one card per line, front & back separated by a tilde (~).</p>
+          <p id="filePrompt" className="flashcards-file-prompt">Files (.txt is easiest) should have one card per line, front & back separated by a tilde (~).{'\n'}
+            <a href="https://github.com/henrysnider/henrysnider.github.io/blob/main/src/assets/flashcardFiles/Research%20Methods%20Midterm%201.txt" target="_blank">Example</a>
+          </p>
         </section>
 
         <section className="flashcards-study" aria-label="Flashcard">
