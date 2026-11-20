@@ -29,6 +29,14 @@ body {
   background-color: var(--primary);
 }
 
+html {
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 main {
   top: var(--header-height);
   left: 0%;

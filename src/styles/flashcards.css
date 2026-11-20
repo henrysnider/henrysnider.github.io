@@ -4,7 +4,6 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  overflow: auto;
   padding: 2rem;
   font-size: var(--txt-medium);
 }
