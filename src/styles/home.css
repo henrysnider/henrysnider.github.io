@@ -1,6 +1,0 @@
-body {
-    background-blend-mode: multiply;
-    background-image: url("cutcube.png");
-    background-repeat: repeat;
-    background-color: var(--primary);
-}
