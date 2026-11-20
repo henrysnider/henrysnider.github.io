@@ -1,0 +1,31 @@
+Problem observer solves ~ Notifier needing to know about/depend on many listeners
+Observer pitfalls ~ Only notifies after, change->notification->change loop, notification order, one exception->the rest fail
+Architectural style vs. design pattern ~ Architecture is about the whole application; patterns live within Architecture
+MVC roles ~ Model-game data & rules, View-show the model, Controller-input->model operations
+MVC allowed dependencies ~ Controller & View back and forth, controller calls model, view reads model
+MVC benefits ~ Testable model, several views for one model, changes contained/parralel work
+MVC variations ~ MVP (presenter listens to model & tells view), MVVM (viewmodel handles actions & calls model, view binds to viewmodel's values, which are taken from model)
+Pitfalls in implementing JavaFX ~ Feedback loops (notification->change->notification), wrong thread
+Concurrency vs Parallelism ~ Concurrency - in progress at the same time but maybe interleaved, Parallelism - Actually simultaneously
+What threads do and don't share ~ Share heap (objects) but different call stacks (pointers, local primitives)
+Kinds of java threads ~ Main/user, daemon/system (don't keep alive)
+Effects of the scheduler ~ Can't rely on order of threads executing
+Thread lifecycle states ~ New/Terminated, Runnable (timed_waiting, waiting, blocked)
+Thread nonsafety issues ~ Shared variables are changed, caching/ordering -> visibility issues, race conditions -> invalid results
+Deadlock ~ When 2+ threads are waiting on something that another one holds (e.g. both synchronized on two locks)
+Rules for UI threads ~ (1) keep slow work out (2) never touch UI outside of the thread
+Rules for reporting progress on slow tasks ~ Very fast (<1s) none, Short (1-10s) show something happening, Slow (>10s) show progress & cancel option
+Strategies for avoiding user invalidating task-in-progress (state results) ~ (1) disable inputs (2) label result (3) cancel & restart
+JavaFX timers (3 options) ~ quick actions on JavaFX thread; Timeline (play/pause/stop), AnimationTimer (60 FPS, smooth changes), java.util.Timer 
+Socket definition ~ Endpoint of a two-way connection between programs running on a network; bound to a port
+Components of a stream ~ Hose (movement; attached to in/out), nozzles (conversion)
+Steps in network communication ~ Establish (new ServerSocket().accept()), read/write (match protocols & stream types), close
+Roles of client vs server Sockets ~ Connect to host & port vs serve on port (exclusive)
+Common network failures ~ host IP unknown, no server on port, server already on port, other side closes (readLine() -> null), other side crashes, forgotten flush()
+Two types of network architecture ~ client-server, peer-to-peer
+Tradeoffs between client-server and peer-to-peer ~ One authority (single pofailure), control (bottleneck), simple clients (latency), easy to find (someone must host)
+Protocol deadlock causes ~ Both sides waiting for the other, protocol error, forgetting to flush
+client vs. server validation ~ Client validates input/warn (for usability), server checks for correctness
+Aspects of protocols ~ Syntax, meaning, order, errors
+Protocol syntax structures ~ Positional (simple, tricky), named fields (more to write/parse), JSON (even more to write/parse), Java objects (identical Java versions w/ identical class versions, messages are unreadable, security risk)
+conversation states ~ server doesn't see messages together, state should (1) identify which messages are legal (2) address disconnection
